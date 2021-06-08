@@ -1,0 +1,17 @@
+export interface IForm {
+  bio: string,
+  role: string,
+  name: string,
+  email: string,
+  major: string,
+  avatar: string,
+  gender: 0 | 1 | 2,
+  birthday: string,
+  school_id: number,
+  tiktok: string,
+  twitter: string,
+  facebook: string,
+  snapchat: string,
+  linkedin: string,
+  instagram: string,
+}
